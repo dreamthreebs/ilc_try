@@ -20,7 +20,7 @@ def calculate_flux_at_frequency(freq: float, freq_ref: float, alpha: float, S0: 
 
 # Parameters
 freq_ref = 30  # Reference frequency (GHz)
-S0 = 10000.0  # Flux density at the reference frequency (Jy)
+S0 = 100000.0  # Flux density at the reference frequency (Jy)
 alpha = 1.5  # Power-law spectral index
 
 m = np.zeros(npix)
